@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshat 1`] = `
+<div
+  className="head"
+  data-testid="header"
+>
+  <span>
+    EPAM BLOG
+  </span>
+</div>
+`;

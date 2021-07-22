@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed component should Should have two blogs rendered 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="feed"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="title"
+        >
+          <strong>
+             test 
+          </strong>
+        </div>
+        <div
+          class="description"
+        >
+          test
+        </div>
+        <div
+          class="btns"
+        >
+          <button
+            class="editBtn"
+          >
+            Edit
+          </button>
+          <button
+            class="deleteBtn"
+            data-testid="deleteComments"
+          >
+            Delete
+          </button>
+          <button
+            class="commentsBtn"
+            data-testid="showComments"
+          >
+            Show Comments
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="title"
+        >
+          <strong>
+             test 
+          </strong>
+        </div>
+        <div
+          class="description"
+        >
+          test
+        </div>
+        <div
+          class="btns"
+        >
+          <button
+            class="editBtn"
+          >
+            Edit
+          </button>
+          <button
+            class="deleteBtn"
+            data-testid="deleteComments"
+          >
+            Delete
+          </button>
+          <button
+            class="commentsBtn"
+            data-testid="showComments"
+          >
+            Show Comments
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post component should Should have comments rendered on button click 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="title"
+      >
+        <strong>
+           sunt aut facere repellat provident occaecati excepturi optio reprehenderit 
+        </strong>
+      </div>
+      <div
+        class="description"
+      >
+        quia et suscipit
+      </div>
+      <div
+        class="btns"
+      >
+        <button
+          class="editBtn"
+        >
+          Edit
+        </button>
+        <button
+          class="deleteBtn"
+          data-testid="deleteComments"
+        >
+          Delete
+        </button>
+        <button
+          class="commentsBtn"
+          data-testid="showComments"
+        >
+          Hide Comments
+        </button>
+      </div>
+      <div>
+        <h2>
+          Comments
+        </h2>
+        <ul
+          data-testid="allComments"
+        >
+          <li>
+            laudantium enim quasi est
+            <p>
+               - Eliseo@gardner.biz
+            </p>
+          </li>
+          <li>
+            est natus enim nihil
+            <p>
+               - Jayne_Kuhic@sydney.com
+            </p>
+          </li>
+          <li>
+            est natus enim nihil
+            <p>
+               - Jayne_Kuhic@sydney.com
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

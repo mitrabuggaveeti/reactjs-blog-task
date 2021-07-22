@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment component should Render 1`] = `
+<DocumentFragment>
+  <div>
+    <h2>
+      Comments
+    </h2>
+    <ul
+      data-testid="allComments"
+    >
+      <li>
+        laudantium enim quasi est
+        <p>
+           - Eliseo@gardner.biz
+        </p>
+      </li>
+      <li>
+        est natus enim nihil
+        <p>
+           - Jayne_Kuhic@sydney.com
+        </p>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
