@@ -3,7 +3,7 @@ import { IState, ParamTypes } from './Types';
 export const editPost = async (details : IState['details']) =>{
 
   try {
-      const response = await fetch('https://jsonplaceholder.typicode.com/posts/1', {
+      const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${details.id}`, {
         method: 'PUT',
         body: JSON.stringify(details),
         headers: {
