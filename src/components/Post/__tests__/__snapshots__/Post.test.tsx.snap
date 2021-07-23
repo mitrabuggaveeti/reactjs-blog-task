@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Post component should Should have comments rendered on button click 1`] = `
+exports[`Post component Should have comments rendered on button click 1`] = `
 <DocumentFragment>
   <div
     class="card"

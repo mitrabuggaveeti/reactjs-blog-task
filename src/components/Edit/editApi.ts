@@ -1,4 +1,4 @@
-import { IState } from './Types';
+import { IState, ParamTypes } from './Types';
 
 export const editPost = async (details : IState['details']) =>{
 
@@ -10,10 +10,33 @@ export const editPost = async (details : IState['details']) =>{
           'Content-type': 'application/json; charset=UTF-8',
         },
       })
-    return await response.json();
+
+      if(response.ok){
+        return await response.json()
+      }
+      return {
+        error : 'Not able to update post details'
+      }  
   } catch (error) {
      return {error}
   }
 
+}
+
+export  const getPostDetails = async(params : ParamTypes) =>{
+
+    try {
+      const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.id}`)
+
+      if(response.ok){
+        return await response.json()
+      }
+    
+      return {
+        error : 'Not able to fetch post details'
+      }      
+    } catch (error) {
+      return {error};
+    }
 }
 

@@ -26,6 +26,7 @@ exports[`Edit component should render 1`] = `
     >
       Submit
     </button>
+    <p />
   </div>
 </DocumentFragment>
 `;

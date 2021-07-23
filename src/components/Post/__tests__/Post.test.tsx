@@ -64,9 +64,10 @@ describe('Post component', () => {
 
         const mockAddListener = jest.spyOn(services, 'deletePost');
 
-        const { getByTestId} = render(<Post post={MOCK_DATA.post} posts={MOCK_DATA.posts} setPosts={()=>{}}/>);
+        const { getByTestId,getByText} = render(<Post post={MOCK_DATA.post} posts={MOCK_DATA.posts} setPosts={()=>{}}/>);
 
         fireEvent.click(getByTestId('deleteComments'));
+        fireEvent.click(getByText('YES'));
 
         expect(mockAddListener).toHaveBeenCalledWith(1);
     })
